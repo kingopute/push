@@ -1,0 +1,55 @@
+page-testimonies {
+
+ion-content {
+        background: #fff !important;
+    }
+
+    .border {
+        border-radius: 1px 1px 1px 1px;
+        box-shadow: 2px 2px 3px 0px #ccc;
+    }
+
+    ion-card-content {
+        background-color: #ffffff !important;
+         height: 53px;
+        
+    }
+
+        ion-icon{
+color: #fff;
+}
+
+    ion-card-title {
+        margin-top: -2vh;
+        color: #2b2b4a;
+        font-size: 12px;
+         font-family: home;
+    }
+
+    ion-row {
+        margin-top: -1vh;
+    }
+
+    .date {
+        color: #2b2b4a;
+        font-family: home;
+        font-size: 10px;
+        //opacity: 50%;
+        text-align: right;
+    }
+
+    ion-col {
+        color: #2b2b4a;
+        font-family: home;
+        font-size: 12px;
+        //opacity: 50%;
+         text-align: left;
+    }
+
+    
+
+  [text-color="mywhite"]{
+        color:white;
+    }
+
+}

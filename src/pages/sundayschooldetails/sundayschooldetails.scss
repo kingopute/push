@@ -1,0 +1,29 @@
+page-sundayschooldetails {
+ion-content {
+         background-color: #fff !important;
+    }
+
+    .image {
+        width: 100%;
+        //height: auto;
+        max-height: 350px;
+    }
+
+        ion-icon{
+color: #fff;
+}
+
+    h4 {
+        text-align: center;
+        color: #1d2033;
+        font-family: medium;
+    }
+
+
+    .description {
+        color: #596267;
+        font-family: regular;
+        font-size: 14px;
+        margin-top: -1vh;
+    }
+}

@@ -1,0 +1,60 @@
+page-ebooksstore {
+
+[text-color="mywhite"]{
+        color:white;
+    }
+
+    ion-content {
+        background-color: #fff !important;
+    }
+    ion-icon{
+color: #fff;
+} 
+
+
+
+  
+    .border {
+        border-radius: 2px 2px 2px 2px;
+        //box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+        min-height: 145px;
+      
+    }
+
+     .photo {
+        min-height: 100px;
+        max-height: 100px;
+        margin-top: -18px;
+        margin-left: -14%;
+      }
+
+    ion-card-content {
+        background-color: #fff !important;
+       // max-height: 20px;
+         //margin-top: -5vh;
+       
+    }
+
+   
+ .price{
+  color: #89959c;
+    font-family: regular;
+    text-align: left;
+    margin-left: -3%;
+    font-size: 12px;
+  }
+
+     .title2 {
+        //margin-top: -2vh;
+        color: #4d4d4d;
+        font-size: 20px;
+        font-family: light;
+         text-align: right;
+         //margin-left: 90%;
+    }
+a{
+    text-decoration: none;
+}
+
+
+}

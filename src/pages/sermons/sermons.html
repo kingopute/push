@@ -1,0 +1,44 @@
+<ion-header>
+   <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Sermons</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+
+   <ion-card *ngFor="let item of sermons" class="border" (tap)="series($event, item)">
+    
+    <img [src]="item.photo" class="photo" (load)="item.loaded = true" [hidden]="!item.loaded" />
+    <img src="assets/img/loading.gif" [hidden]="item.loaded">
+
+    <ion-card-content>
+      
+      <!--<ion-card-title>
+        {{item.title}}
+      </ion-card-title>-->
+
+      <ion-row>
+        <ion-col class="title2">
+       {{item.title}}
+        </ion-col>
+      </ion-row>
+
+
+
+      <ion-row>
+        <ion-col class="date">
+          {{item.date}}
+        </ion-col>
+       
+      </ion-row>
+    
+    </ion-card-content>
+  
+  </ion-card>
+
+</ion-content>

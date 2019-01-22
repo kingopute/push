@@ -1,0 +1,33 @@
+<!--
+  Generated template for the DevotionPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+   <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title> Devotional</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-card *ngFor="let item of devotional" class="border" (tap)="series($event, item)">
+
+
+
+       <ion-row>  
+        <ion-col class="t">
+    <div>{{item.month}}</div>
+        </ion-col>
+      </ion-row>
+
+    
+</ion-card>
+
+</ion-content>

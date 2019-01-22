@@ -1,0 +1,96 @@
+page-dvdstore {
+
+
+ion-content {
+        background-color: #ffffff !important;
+    }
+
+    .border {
+        //border-radius: 10px 10px 10px 10px;
+        box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.75);
+    }
+    ion-card{
+        height: 70px;
+    }
+    
+    ion-card-title {
+        font-size: 20px !important;
+        color: #3A393B !important;
+        height: 10px;
+    }
+
+    ion-row {
+        margin-top: -1vh;
+    }
+
+    .branch {
+        font-family: font-book;
+    }
+
+    ion-col {
+        color: #3A393B !important;
+        height: 25px;
+    }
+
+    .iconStyle {
+        font-size: 22px;
+        color: #FC4A19;
+    }
+
+    a {
+        text-decoration: none;
+    }
+    .register {
+        width: 75%;
+        margin-top: -0.1vh;
+        margin-left: 44%;
+        color: #000;
+        background-color: #ffffff;
+        font-size: 16px;
+         font-family:light;
+    }
+    ion-icon{
+color: #fff;
+}
+
+.im{
+    position: absolute;
+    height: 70px;
+    width: 70px;
+}
+
+.t{
+    position: absolute;
+    margin-left: 150px;
+     margin-top: 1.2vh;
+     color: #212059;
+}
+
+.p{
+    position: absolute;
+    margin-left: 150px;
+     margin-top: 1.4vh;
+     color: #212059;
+}
+
+  [text-color="mywhite"]{
+        color:white;
+    }
+
+.linkwrap{
+    position: relative;
+    display: inline-block;
+}
+
+.blocker{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.linkwrap iframe{
+    z-index: 2;
+}
+
+}

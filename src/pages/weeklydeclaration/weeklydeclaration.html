@@ -1,0 +1,58 @@
+<!--
+  Generated template for the SundayschoolPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Weekly Declaration</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+ <ion-card class="border" *ngFor="let subitems of subitem.declaration" (tap)="declaration($event, subitems)">
+    <!--<img [src]="subitems.photo" (load)="subitems.loaded = true" [hidden]="!subitems.loaded" />
+    <img src="assets/img/396PlaceHolder.png" [hidden]="subitems.loaded">
+    <div class="titles">{{subitems.title}}</div>-->
+
+ <ion-row>
+        <ion-col>
+        <img class="photo" [src]="subitems.photo" (load)="subitems.loaded = true" [hidden]="!subitems.loaded" />
+    <img src="assets/img/loading.gif" [hidden]="subitems.loaded">
+        </ion-col>
+
+        <ion-col class="title">
+       {{subitems.title}}
+        <br>
+        <ion-col class="price">{{subitems.bibletext}}</ion-col>
+        </ion-col>
+      </ion-row>
+
+      <hr>
+
+      <ion-row>
+       
+        <ion-col>
+           {{subitems.date}}
+        </ion-col>
+
+      </ion-row>
+
+
+
+  </ion-card>
+
+
+
+
+
+
+  
+</ion-content>

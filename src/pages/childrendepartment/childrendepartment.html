@@ -1,0 +1,45 @@
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Children Department</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-card *ngFor="let item of childrendepartment" class="border" (tap)="series($event, item)">
+
+    
+    <ion-card-content>
+
+      <ion-row>
+        <ion-col>
+        <img class="photo" [src]="item.photo" (load)="item.loaded = true" [hidden]="!item.loaded" />
+    <img src="assets/img/loading.gif" [hidden]="item.loaded">
+        </ion-col>
+
+        <ion-col class="title">
+       {{item.title}}
+        <br>
+        <ion-col class="price">{{item.bibletext}}</ion-col>
+        </ion-col>
+      </ion-row>
+
+ <hr>
+
+      <ion-row>
+       
+        <ion-col>
+           {{item.date}}
+        </ion-col>
+
+      </ion-row>
+    
+    </ion-card-content>
+  
+  </ion-card>
+</ion-content>

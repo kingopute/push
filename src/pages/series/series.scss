@@ -1,0 +1,112 @@
+page-series {
+
+    ion-content {
+        background-color: #ffffff !important;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    h4 {
+        text-align: center;
+        color: #DFDCE3;
+    }
+
+    .info {
+        color: #DFDCE3;
+        font-family: home;
+        font-size: 14px;
+        margin-top: 3vh;
+    }
+
+    .text {
+        color: #66757f;
+        font-family: home;
+        font-size: 14px;
+        margin-top: -1vh;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    .opacity {
+        opacity: 0.2;
+    }
+
+    .number {
+        position: absolute;
+        top: 8px;
+        left: 16px;
+        color: #66757f;
+        font-family: home;
+    }
+
+    .titles {
+        position: absolute;
+        top: 50%;
+        color: #66757f;
+        font-size: 14px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .leader {
+        position: absolute;
+        bottom: 15%;
+        font-family: home;
+        color: #66757f;
+        font-size: 10px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .date {
+        position: absolute;
+        bottom: 8%;
+        font-family: home;
+        color: #66757f;
+        font-size: 8px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .icons {
+        position: absolute;
+        bottom: -4%;
+        right: 10px;
+        font-size: 12px;
+        color: #66757f;
+    }
+
+    // .elements {
+    //     position: absolute;
+    //     bottom: -1%;
+    //     left: 50%;
+    //     transform: translate(-50%, -50%);
+    // }
+
+        ion-icon{
+color: #fff;
+}
+
+    .episode {
+        margin-top: -11vh;
+    }
+
+    h5 {
+        margin-top: -2vh;
+        color: #DFDCE3;
+    }
+
+    h6 {
+        margin-top: -10vh;
+        color: #DFDCE3;
+    }
+
+
+
+
+}

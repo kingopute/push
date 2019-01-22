@@ -1,0 +1,77 @@
+page-event-details {
+
+    ion-content {
+        background-color: #fff !important;
+    }
+    ion-icon{
+color: #fff;
+}
+    h3 {
+        color: #66757f;
+    }
+
+    p {
+        color: #66757f;
+    }
+
+    .icons {
+        font-size: 18px;
+        color: #66757f;
+    }
+
+    .address {
+        margin-top: -0.1vh;
+        font-family: font-regular;
+    }
+
+    .space {
+        margin-top: -2vh;
+    }
+
+    .spaces {
+        margin-top: -2vh;
+    }
+
+    .info {
+        color: #66757f;
+        font-family: font-bold;
+        font-size: 14px;
+        margin-top: -1vh;
+    }
+
+    .text {
+        color: #66757f;
+        font-family: font-regular;
+        font-size: 14px;
+        margin-top: -1vh;
+    }
+
+    .register {
+        width: 75%;
+        margin-top: -1.5vh;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .calendar {
+        width: 75%;
+        margin-top: 2vh;
+        color: #fff;
+    }
+
+    .iconCal {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    sebm-google-map {
+        height: 200px;
+    }
+
+    .map {
+        margin-top: -1vh;
+    }
+
+}

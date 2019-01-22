@@ -1,0 +1,31 @@
+<ion-header>
+   <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Events</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-slides pager effect="coverflow">
+
+    <ion-slide *ngFor="let item of events" (tap)="event($event, item)">
+      
+      <div class="container">
+        <img [src]="item.image" (load)="item.loaded = true" [hidden]="!item.loaded" />
+        <img src="assets/img/loading.gif" [hidden]="item.loaded">
+
+    <button class="register" ion-button block color="myGreen" outline medium>More Details</button>  
+
+        <!--<div class="event">{{item.title}}</div>
+
+        <div class="date">{{item.day}}</div>-->
+      </div>
+    
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

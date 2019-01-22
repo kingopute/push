@@ -1,0 +1,27 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>{{item.title}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content>
+
+  <iframe width="100%" height="315" [src]="item.videoURL | videos" frameborder="0" allowfullscreen></iframe>
+
+  <!--<iframe class="player" [src]="subitem.audioURL | videos" width="100%" height="70" frameborder="0" scrolling="no"></iframe>-->
+
+  <div padding class="style">
+  
+    <h1>{{item.title}}</h1>
+
+    <h6>{{item.leader}}</h6>
+
+    <p class="date">{{item.date}}</p>
+
+    <p [innerHTML]="item.info"></p>
+
+  </div>
+
+</ion-content>

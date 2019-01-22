@@ -1,0 +1,97 @@
+<ion-header>
+
+   <ion-navbar color="primary">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>More</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+
+
+
+
+  <ion-card class="h" *ngFor="let subitem of more.leaders" (tap)="leaders($event, subitem)">
+  <ion-list class="h">
+    <button ion-item class="h">
+      <p class="name">Leaders</p>
+      <!--<ion-icon name="people" item-start class="book"> </ion-icon>-->
+      
+    </button>
+  </ion-list>
+</ion-card>
+
+ <!--<ion-card class="h" *ngFor="let subitem of more.ministries" (tap)="ministries($event, subitem)">
+  <ion-list class="h">
+    <button ion-item class="h">
+      <p class="name">Ministries</p>
+      <ion-icon name="people" item-start class="book"> </ion-icon>
+       
+     
+    </button>
+  </ion-list>
+</ion-card>-->
+<!--
+<ion-card class="h" *ngFor="let subitem of more.branches" (tap)="branches($event, subitem)">
+  <ion-list class="h">
+    <button ion-item class="h">
+      <p class="name">Branches</p>
+    
+      <ion-icon name="people" item-start class="book"> </ion-icon>
+     
+    </button>
+  </ion-list>
+</ion-card>
+-->
+<ion-card class="h" *ngFor="let subitem of more.about" (tap)="about($event, subitem)">
+  <ion-list class="h">
+    <button ion-item class="h">
+      <p class="name">About Us</p>
+      <!--<ion-icon name="people" item-start class="book"> </ion-icon>-->
+     
+    </button>
+  </ion-list>
+</ion-card>
+
+<!--<ion-card class="h" *ngFor="let subitem of more.music" (tap)="stream($event, subitem)">
+  <ion-list class="h">
+    <button ion-item class="h">
+      <p class="name">Live Stream</p>
+       <ion-icon name="people" item-start class="book"> </ion-icon>
+     
+    </button>
+  </ion-list>
+</ion-card>-->
+
+<ion-card class="h" *ngFor="let subitem of more.connect" (tap)="connect($event, subitem)">
+  <ion-list class="h">
+    <button ion-item class="h">
+      <p class="name">Contact Us</p>
+        <!--<ion-icon name="people" item-start class="book"> </ion-icon>-->
+     
+    </button>
+  </ion-list>
+</ion-card>
+
+<ion-card class="h" *ngFor="let subitem of more.social" (tap)="social($event, subitem)">
+  <ion-list class="h">
+    <button ion-item class="h">
+      <p class="name">Social</p>
+       <!--<ion-icon name="people" item-start class="book"> </ion-icon>-->
+     
+    </button>
+  </ion-list>
+</ion-card>
+
+
+
+  
+
+ 
+
+</ion-content>

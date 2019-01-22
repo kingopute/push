@@ -1,0 +1,32 @@
+<!--
+  Generated template for the OnlinegivingPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="primary">
+   <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Online Giving</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+<ion-item>
+      <ion-label>Select your type of giving</ion-label>
+      <ion-select [(ngModel)]="filtermonthwise" interface="action-sheet" (ionChange)="monthfilter(filtermonthwise);">
+        <ion-option value="1">Offering</ion-option>
+        <ion-option value="2">Tithe</ion-option>
+        <ion-option value="3">First Friut</ion-option>
+        <ion-option value="4">Others</ion-option>
+    
+      </ion-select>
+    </ion-item>
+
+</ion-content>

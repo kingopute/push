@@ -1,0 +1,39 @@
+page-leaders {
+
+    ion-content {
+        background-color: #fff !important;
+    }
+
+    .border {
+        border-radius: 1px 1px 1px 1px;
+        box-shadow: 2px 2px 3px 0px #ccc;
+    }
+        ion-icon{
+color: #fff;
+}
+    
+    ion-card-title {
+        font-size: 20px !important;
+        color: #3A393B !important;
+    }
+
+    ion-row {
+        margin-top: -1vh;
+    }
+
+   
+
+    ion-col {
+        color: #3A393B !important;
+    }
+
+    .iconStyle {
+        font-size: 22px;
+        color: #2b2b4a;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+}

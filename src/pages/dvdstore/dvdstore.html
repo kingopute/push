@@ -1,0 +1,47 @@
+<!--
+  Generated template for the DvdstorePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+<ion-navbar color="primary">
+   <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>DVD Store</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+<ion-card class="border" *ngFor="let item of dvdstore">
+      
+  
+      <ion-row>  
+        <ion-col>
+    <img class="im" [src]="item.photo" (load)="item.loaded = true" [hidden]="!item.loaded" />
+    <img src="assets/img/loading.gif" [hidden]="item.loaded">
+    <div class="t">{{item.title}}</div>
+        </ion-col>
+      </ion-row>
+
+        <ion-row>
+          <ion-col>
+    <div class="p">{{item.price}}</div>
+        </ion-col>
+      </ion-row>
+    
+    <hr>
+           <ion-row>
+             <ion-col>
+<div class="register" color="myWhite" (tap)="series($event, item)"> Purchase Here!</div>
+ 
+        </ion-col>
+      </ion-row>
+   
+      
+  </ion-card>
+
+</ion-content>

@@ -1,0 +1,74 @@
+page-members {
+
+ion-content{
+    // background-color: #123456;
+		background-image: url(../assets/img/bg1.jpg);
+    }
+
+
+
+
+    .nav{
+	//background-color: transparent;
+	text-align: center;
+	background-color: #fff;
+	//color: #6ebe47;
+}
+    ion-icon{
+color: #fff;
+}
+
+
+    [text-color="mywhite"]{
+        color:white;
+    }
+
+
+    .border {
+        border-radius: 10px 10px 10px 10px;
+        //box-shadow: 2px 2px 3px 0px rgba(2,2,0,0.75);
+        box-shadow: 2px 2px 3px 0px #1a1d2e;
+    }
+
+    ion-card-content {
+        background-color: #fff !important;
+        height: 80px;
+        font-family: regular;
+        
+    }
+    
+    ion-card-title {
+        font-size: 17px !important;
+        color: #000 !important;
+        
+    }
+
+    ion-row {
+        margin-top: -1vh;
+    }
+
+    .date {
+        font-family: Open;
+        color: #000;
+        text-align: right;
+
+    }
+
+    ion-col {
+        color: #ccc !important;
+    }
+
+    //ion-icon {
+      //  font-size: 22px;
+        //color: #FAFAFA;
+    //}
+
+ //ion-title {
+  //text-align: center;
+  //font-size: 0.9em;
+  //font-weight: 200;
+  //font-family: Open Sans;
+  //color: #FAFAFA;
+  //}
+
+}
